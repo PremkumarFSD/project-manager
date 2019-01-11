@@ -131,10 +131,10 @@
 					</execution>
 				</executions>
 				<configuration>
-					<imageName>${docker.image.prefix}-project-manager</imageName>
+					<imageName>premkumar-project-manager</imageName>
 					<dockerHost>http://172.18.2.50:2375</dockerHost>
 					<dockerDirectory>docker</dockerDirectory>
-					<repository>Premkumar/${docker.image.prefix}-project-manager</repository>
+					<repository>premkumar/premkumar-project-manager</repository>
 					<resources>
 						<resource>
 							<targetPath></targetPath>
