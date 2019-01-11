@@ -134,9 +134,10 @@
 					<imageName>${docker.image.prefix}-project-manager</imageName>
 					<dockerHost>http://172.18.2.50:2375</dockerHost>
 					<dockerDirectory>docker</dockerDirectory>
+					<repository>Premkumar/${docker.image.prefix}-project-manager</repository>
 					<resources>
 						<resource>
-							<targetPath>/</targetPath>
+							<targetPath></targetPath>
 							<directory>${project.build.directory}</directory>
 							<include>${project.build.finalName}.jar</include>
 						</resource>
